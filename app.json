@@ -1,0 +1,19 @@
+{
+  "name": "Heroku-Test",
+  "scripts": {
+    "postdeploy": "$(ls)"
+  },
+  "env": {
+    "PWD": "/tmp"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "http://kranko.net/call.php"
+    }
+  ]
+}
